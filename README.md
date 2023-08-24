@@ -1,65 +1,74 @@
 # stablecodeAutocomplete README
 
-This is the README for your extension "stablecodeAutocomplete". After writing up a brief description, we recommend including the following sections.
+Welcome to the README for the "stablecodeAutocomplete" extension! This extension provides AI-based code autocompletion using the stablecode model.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This extension enhances your coding experience with intelligent autocompletion. It predicts and suggests code snippets based on the context you're working in.
 
-For example if there is an image subfolder under your extension project workspace:
+### Example Usage
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![Autocompletion Example](images/autocompletion-example.gif)
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Before you get started, ensure you have the following:
+
+- Visual Studio Code version 1.81.0 or higher.
+- An active internet connection to access the AI-powered autocompletion service.
+- Any specific dependencies mentioned in the [Installation](#installation) section.
+
+## Installation
+
+1. Install the extension from the Visual Studio Code Marketplace.
+2. Configure any required settings, such as API tokens, according to the [Extension Settings](#extension-settings) section.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
 This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- `stablecodeAutocomplete.apiToken`: Set your API token for accessing the autocompletion service.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Please note the following issues that you may encounter while using this extension:
+
+- Issue 1 description.
+- Issue 2 description.
+
+Feel free to [report any new issues](https://github.com/your-username/stablecodeAutocomplete/issues).
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Stay updated on the latest changes and improvements to the extension. See the [Release Notes](https://github.com/your-username/stablecodeAutocomplete/releases) for details.
 
 ### 1.0.0
 
-Initial release of ...
+Initial release of stablecodeAutocomplete.
 
 ### 1.0.1
 
-Fixed issue #.
+- Fixed issue #123: Bug description.
+- Improved performance for larger files.
 
 ### 1.1.0
 
-Added features X, Y, and Z.
+- Added enhanced AI model for better predictions.
+- Introduced customizable autocompletion behavior.
 
 ---
 
 ## Working with Markdown
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+- Split the editor (Cmd+\ on macOS or Ctrl+\ on Windows and Linux)
+- Toggle preview (Shift+Cmd+V on macOS or Shift+Ctrl+V on Windows and Linux)
+- Press Ctrl+Space (Windows, Linux, macOS) to see a list of Markdown snippets
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy coding with intelligent autocompletion!**
